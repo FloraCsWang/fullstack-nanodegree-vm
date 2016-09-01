@@ -6,4 +6,7 @@
 -- You can write comments in this file by starting them with two dashes, like
 -- these lines here.
 
-
+CREATE TABLE game ( id SERIAL,
+                    name TEXT,
+                    wins Integer DEFAULT 0,
+                    matches Integer DEFAULT 0);
